@@ -3,7 +3,7 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     // 引用你的自定义插件 ID
-    id("openking.plugins.verify")
+    id("io.github.OpenKing88.verify")
 }
 
 android {

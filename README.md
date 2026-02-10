@@ -12,7 +12,7 @@
 在你的项目根目录 build.gradle.kts 或 app/build.gradle.kts 中添加：  
 ```kotlin
 plugins {
-    id("openking.plugins.verify") version "1.0.0"
+    id("io.github.OpenKing88.verify") version "1.0.0"
 }
 ```
 

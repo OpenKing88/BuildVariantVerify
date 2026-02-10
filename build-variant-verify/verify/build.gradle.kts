@@ -1,10 +1,10 @@
 plugins {
     `kotlin-dsl`
     `maven-publish` // 必须，发布的基础
-    id("com.gradle.plugin-publish") version "1.2.1" // Gradle 官方发布插件
+    id("com.gradle.plugin-publish") version "2.0.0" // Gradle 官方发布插件
 }
 
-group = "openking.plugins"
+group = "io.github.OpenKing88"
 version = "1.0.0"
 
 repositories {
@@ -25,7 +25,7 @@ gradlePlugin {
     vcsUrl.set("https://github.com/OpenKing88/BuildVariantVerify.git")
     plugins {
         create("buildVerify") {
-            id = "openking.plugins.verify"
+            id = "io.github.OpenKing88.verify"
             displayName = "Android Build Variant Verifier" // 插件市场显示的标题
             description = "A plugin to verify APK/AAB signature and print build config info." // 详细描述
             tags.set(listOf("android", "build", "signature", "verify", "aab", "apk")) // 搜索标签
